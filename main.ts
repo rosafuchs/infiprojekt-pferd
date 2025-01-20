@@ -1,7 +1,3 @@
-info.onScore(10, function () {
-    let mySprite: Sprite = null
-    controller.moveSprite(mySprite)
-})
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(horse, 100, 100)
     controller.moveSprite(death, 39, 80)
